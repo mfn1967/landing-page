@@ -141,7 +141,7 @@
     margin: 10px 0 0 540px;
   }
 
-  /* Signup section */
+  /* Sign-up section */
 
   .sign-up-section{
     display: flex;
@@ -174,4 +174,16 @@
     border: 3px solid white;
     background-color: #3882F6;
     color: white;
+  }
+
+  /* Footer section */
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px;
+    margin-top: 80px;
   }
