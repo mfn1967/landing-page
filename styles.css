@@ -1,3 +1,4 @@
+/* Header */
 * {
     margin: 0;
     padding: 0;
@@ -29,3 +30,50 @@
     color: #e5e7eb;
     font-size: 18px;
 }
+
+/* Hero section left */
+
+.hero-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    padding: 48px;
+}
+
+.hero-section .child-left {
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.hero-section .main-text{
+    font-size: 42px;
+    font-weight: bolder;
+    color: #F9FAF8;
+  }
+
+  .hero-section .secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+  .hero-section button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+
+  /* Hero section right */
+
+  .child-right {
+    width: 420px;
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+  }
