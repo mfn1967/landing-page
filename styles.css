@@ -77,3 +77,41 @@
     align-items: center;
     color: #E5E7EB;
   }
+
+  /* Information section */
+
+  .information-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    gap: 32px;
+  }
+
+  .information-section .heading{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+  }
+
+  .information-section .image{
+    width: 125px;
+    height: 125px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+  }
+
+
+  .information-section .images-main-container {
+    display: flex;
+    gap: 32px;
+  }
+
+  .information-section .images-secondary-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 158px;
+    gap: 8px;
+  }
